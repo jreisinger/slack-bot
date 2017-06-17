@@ -8,16 +8,17 @@ Install node from https://nodejs.org/en/download/
 
 Then:
 ```
-npm install -g nodemon
-npm install  # install deps from package.json
+npm install             # install deps from package.json
+npm install -g nodemon  # optional
 ```
 
-Store toke in `config.json`:
+Store token in `config.json`:
 
+```
 {
     "token": "TOKEN"
 }
-
+```
 
 Run
 ---
