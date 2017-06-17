@@ -1,8 +1,8 @@
 Slack bot
 =========
 
-Installation
-------------
+Install
+-------
 
 Install node from https://nodejs.org/en/download/
 
@@ -15,12 +15,12 @@ npm install  # install deps from package.json
 Store toke in `config.json`:
 
 {
-    "token": "<token>"
+    "token": "TOKEN"
 }
 
 
-Running
--------
+Run
+---
 
 ```
 node index.js
