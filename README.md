@@ -12,6 +12,13 @@ npm install -g nodemon
 npm install  # install deps from package.json
 ```
 
+Store toke in `config.json`:
+
+{
+    "token": "<token>"
+}
+
+
 Running
 -------
 
