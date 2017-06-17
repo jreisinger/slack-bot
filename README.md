@@ -12,11 +12,16 @@ npm install             # install deps from package.json
 npm install -g nodemon  # optional
 ```
 
-Store token in `config.json`:
+```
+touch config.json
+chmod 600 config.json
+```
+
+Get token from https://my.slack.com/apps/build/custom-integration and store it in `config.json`:
 
 ```
 {
-    "token": "TOKEN"
+    "token": "<token>"
 }
 ```
 
